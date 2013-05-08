@@ -6,4 +6,4 @@ comments: true
 sharing: true
 footer: true
 ---
-<a href="http://localhost:4000/apps/montessoriblocks.html"><img src='../images/game.gif' alt='Montessori blocks'></a>
+<a href="http://busyspidermobile.com/apps/montessoriblocks.html"><img src='../images/game.gif' alt='Montessori blocks'></a>
