@@ -1,11 +1,16 @@
 ---
 layout: page
-title: "contact_us"
+title: "Contact Us"
 date: 2013-05-08 15:44
 comments: true
 sharing: true
 footer: true
 ---
-Email: abusyspider@gmail.com</br>
-Facebook:</br>
-Twitter:</br>
+Email: abusyspider@gmail.com<br>
+
+
+
+
+<a href="https://www.facebook.com/busyspidermobile" target="_blank" align="left"><img src="../images/facebook.png" border="0"></a><a href="https://twitter.com/BusyspiderMobi" target="_blank" align="left"><img src="../images/twitter.png" border="0"></a>
+
+
