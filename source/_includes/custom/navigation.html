@@ -1,9 +1,11 @@
 <!-- use full url including 'index.html' for navigation bar if you are using ajax -->
 <ul id="nav">
-	<li id="ajax"><a href="{{ root_url }}/index.html">Home</a></li>
-	<li id="ajax"><a href="{{ root_url }}/apps/index.html">Apps</a></li>
-    <li id="ajax"><a href="{{ root_url }}/contact-us/index.html">Contact Us</a></li>
-    {% if site.simple_search %}
+    <li ><a href="{{ root_url }}/index.html">Home</a></li>
+    <li ><a href="{{ root_url }}/apps/index.html">Apps</a></li>
+    <li ><a href="{{ root_url }}/blog/index.html">Blogs</a></li>
+    <!--<li ><a href="{{ root_url }}/apps/index.html">Press</a></li>-->
+        <li ><a href="{{ root_url }}/contact-us/index.html">Contact</a></li>
+   <!-- {% if site.simple_search %}
     <li>
     <div id="dark">
         <form method="get" action="{{ root_url }}/search.html" id="search">
@@ -11,5 +13,7 @@
         </form>
     </div>
     </li>
-    {% endif %}    
+    {% endif %} 
+
+    -->   
 </ul>
