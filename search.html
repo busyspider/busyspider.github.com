@@ -6,7 +6,7 @@
 	<title>Busyspider Mobile</title>
     <meta name="author" content="busyspider mobile">
     
-	<meta name="description" content=" ">
+	<meta name="description" content="Search Results $('#search_results').tapir({ 'token': '', 'complete' : function() { document.getElementById('search_loading').style.display="none &hellip;">
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -316,45 +316,21 @@ function HideRange(sect,elTag,IDS) {
 <div id="toload">
 <!-- begin toload --> 
     <div id="content" class="inner">
-        <article class="page">
-    
-    <div class="entry-content"><div id="home">
-<div id="social-custom" class="clearfix">
-  <li>
-  <a href="http://facebook.com" class="facebookC" ></a>
-  </li>
-  <li>
-  <a href="http://twitter.com" class="twitterC" ></a>
-  </li>
-  <li>
-  <a href="http://youtube.com" class="youtubeC" ></a>
-  </li>
-  <li>
-  <a href="http://google.com" class="googleplusC" ></a>
-  </li>
-  <li>
-  <a href="facebook.com" class="rssC" ></a>
-  </li>
+        <h1 class="entry-title"><center>Search Results</center></h1>
+<div id="search_loading" style="margin: 40px 0">
+    <center><img src="/images/loading.gif"></center>
 </div>
 
-
-<div id="home-cover">
-<a class="banner" href="www.busyspidermobile.com"><img src="/images/custom/coverbig.png" width=900 height=450></a>
-    <div>
-    <div id="home-slides" class="container">
-    <div id="slides">
-      <a href="www.busyspidermobile.com"><img src="/images/custom/coverbig.png" width=900 height=450></a>
-      <a href="www.busyspidermobile.com"><img src="/images/custom/coverbig2.png" width=900 height=450></a>
-      <a href="www.busyspidermobile.com"><img src="/images/custom/coverbig3.png" width=900 height=450></a>
-      <a href="www.busyspidermobile.com"><img src="/images/custom/coverbig4.png" width=900 height=450></a>
-   
-    </div>
-  </div>
-  </div>
-  </div>
-</div></div>
-</article>
-
+<script type="text/javascript" src="/javascripts/jquery-tapir.js"></script>
+<div id="search_results" style="display:none">
+<br>
+</div>
+<script>
+         $('#search_results').tapir({
+             'token': '',
+             'complete' : function() { document.getElementById('search_loading').style.display="none"; }
+         });
+</script>
 
 
     </div>
@@ -378,6 +354,19 @@ function HideRange(sect,elTag,IDS) {
 })(jQuery);
 </script> <!-- Delete or comment this line to disable Fancybox -->
 
+
+<script type="text/javascript">
+      var disqus_shortname = 'busyspider';
+      
+        
+        var disqus_script = 'count.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
 
 
 
