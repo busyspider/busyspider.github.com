@@ -1,0 +1,175 @@
+
+
+//apps
+.apps{
+margin-bottom:50px;
+  
+
+}
+.leftLogo{
+  float: left;
+  width: 300px;
+//border: 1px solid green;
+}
+
+.rightDescription
+{
+  float: left;
+  width: 550px;
+  height: 210px;
+  position:relative;
+  margin-top:20px;
+  margin-left:20px;
+ //border:1px solid green;
+ font-size: 1.05em;
+
+  .readmore{
+  position:absolute;
+
+  left:0;
+  bottom:0;
+  }
+}
+
+.readmore button{
+  width:100px;
+  height:40px;
+  margin-top:40px;
+  margin-right:20px;
+  color: green;
+  font-weight:bold;
+  
+}
+
+
+
+//pages-petsets
+.pagecustom{
+width:700px;
+margin:10px auto;
+//border:1px solid red;
+  
+}
+.pagetitle{
+  width:400px;
+  //border:1px solid red;
+  margin:0 auto;
+}
+
+.highlight li{
+  font-size:1.2em;
+}
+
+.content li{
+  font-size:1.2em;
+}
+
+li.play{
+  list-style-type:none;
+  list-style-image: url('../images/bearlistsmall.png');
+}
+
+li.rightset{
+  list-style-type:none;
+  list-style-image: url('../images/correctsmall.png');
+}
+  li.wrongset{
+  list-style-type:none;
+  list-style-image: url('../images/wrongsmall.png');
+}
+
+li.coin{
+  list-style-type:none;
+  list-style-image: url('../images/hintcoinsmall.png');
+}
+
+.centerimage {
+  text-align:center;
+}
+
+ul.coinlist li{
+ 
+  width:320px;
+  margin:5px auto;
+  //border: 1px solid red;
+}
+
+li.dollarcoin{
+  list-style-type:none;
+  list-style-image: url('../images/dollarcoinsmall.png');
+}
+li.hintcoin{
+  list-style-type:none;
+  list-style-image: url('../images/hintcoinsmall.png');
+}
+li.shufflecoin{
+  list-style-type:none;
+  list-style-image: url('../images/shufflecoinsmall.png');
+}
+li.timecoin{
+  list-style-type:none;
+  list-style-image: url('../images/timecoinsmall.png');
+}
+li.doublecoin{
+  list-style-type:none;
+  list-style-image: url('../images/doublecoinsmall.png');
+}
+
+
+#wrongset li, #rightset li{
+  display:block;
+  width:350px;
+  //border:1px solid red;
+  padding-bottom:50px;
+  border-bottom: 10px double grey;
+  list-style-type:none;
+  margin:5px auto;
+}
+
+
+ table.example{
+  
+  border-collapse:collapse;
+  
+  border:1px solid black;
+  margin-left:40px;
+  }
+ .example th,td{
+
+  border:1px solid black;
+}
+td.correct{
+  width:35px;
+  text-align:center;
+  color:green;
+}
+td.wrong{
+  width:35px;
+  text-align:center;
+  color:red;
+}
+
+
+//blog
+.postblog{
+  min-height:150px;
+
+a.bloglink {
+  float:left; 
+  margin-right:20px;
+}
+
+.blogimg{
+  float:left;
+  overflow:hidden;
+  width:100px;
+  height:100px;
+}
+
+p{font-size:1.1em;}
+}
+.post h2,.post .entry-content,.postblog{
+  width:600px;
+  margin:10px auto;
+  //border:1px solid red;
+}

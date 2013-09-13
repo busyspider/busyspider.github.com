@@ -1,0 +1,23 @@
+//blog
+.postblog{
+  min-height:150px;
+
+a.bloglink {
+  float:left; 
+  margin-right:20px;
+}
+
+.blogimg{
+  float:left;
+  overflow:hidden;
+  width:100px;
+  height:100px;
+}
+
+p{font-size:1.1em;}
+}
+.post h2,.post .entry-content,.postblog{
+  width:600px;
+  margin:10px auto;
+  //border:1px solid red;
+}
