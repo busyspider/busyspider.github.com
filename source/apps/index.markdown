@@ -21,6 +21,9 @@ footer: true
 	<form style="display: inline" action="https://itunes.apple.com/us/app/pet-sets-sharpen-your-eyes/id687777202?ls=1&mt=8" method="get" >
     <button >Download</button>
 </form>
+<form style="display: inline" action="http://www.youtube.com/user/busyspidermobile" method="get" >
+    <button >Video</button>
+</form>
 
 
 
@@ -35,7 +38,7 @@ footer: true
 </div>
 <div class="rightDescription">
  <p>MONTESSORI BLOCKS is a very simple, interesting, and educational block game.
- Good for age 2-10. 
+ Good for age 2-8. 
 </p>
  <div class="readmore">
  	<form style="display: inline" action="http://busyspidermobile.com/apps/montessoriblocks.html" method="get" >
